@@ -25,8 +25,9 @@ Debug >> Start without Debugging.
 
 
 Assumptions:
-In tasks.json - cmoc location :: C:\\cygwin64\\usr\\local\\bin\ - change to match your own setup
+in tasks.json - cmoc location :: C:\\cygwin64\\usr\\local\\bin\ - change to match your own setup
 in launch.json - xroar location :: C:\\CODING\\TRSCOLOR\\xroar-0.35.2-w64\\xroar - change to match your own setup
+in c_cpp_properties.json - include path for cmoc default libraries :: C:\\cygwin64\\usr\\local\\bin\\share\\cmoc\\include - change to match your own setup 
 
 Requirements:
 C/C++ for Visual Studio Code extension - extension identified: ms-vscode.cpptools
