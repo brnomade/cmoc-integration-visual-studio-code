@@ -4,7 +4,7 @@
             "name": "Win32",
             "includePath": [
                 "${workspaceFolder}/**",
-                "C:\\cygwin64\\usr\\local\\bin\\share\\cmoc\\include"
+                "C:\\cygwin64\\usr\\local\\bin\\share\\cmoc\\include/**"
             ],
             "defines": [
                 "_DEBUG",
@@ -15,7 +15,7 @@
                 "limitSymbolsToIncludedHeaders": false,
                 "path": [
                     "${workspaceFolder}/**",
-                    "C:\\cygwin64\\usr\\local\\bin\\share\\cmoc\\include"
+                    "C:\\cygwin64\\usr\\local\\bin\\share\\cmoc\\include/**"
                 ]
             },
             "compilerPath": "C:\\cygwin64\\usr\\local\\bin\\cmoc.exe",

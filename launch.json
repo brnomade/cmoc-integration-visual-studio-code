@@ -10,11 +10,12 @@
             "request": "launch",
             "program": "C:\\CODING\\TRSCOLOR\\xroar-0.35.2-w64\\xroar",
             "args": ["-run",
-                     "${fileDirname}\\${fileBasenameNoExtension}.bin"],
+                     "${workspaceFolder}\\bin\\${fileBasenameNoExtension}.bin"],
             "stopAtEntry": false,
             "cwd": "C:\\CODING\\TRSCOLOR\\xroar-0.35.2-w64",
             "environment": [],
-            "externalConsole": true
+            "externalConsole": true,
+            "internalConsoleOptions": "openOnSessionStart"
         }
     ]
 }
