@@ -29,7 +29,7 @@ to build a file:
 
 Terminal >> Run Task >> CMOC - build active file - targer CoCo
 
-before building, makes sure to open the tasks.json file and adjust the last build task argument. It is the -l parameter. If any library needs to be included in the build than the library name needs to be added. example: -lbgraph. If no library needs to be included, remove the parameter.
+before building, makes sure to open the tasks.json file and adjust the last build task argument. It is the -l parameter. To include any required library in the build add the library name after the parameter. Add additional lines for each extra library and use the -l parameter for each one of them. example: -lbgraph. If no library needs to be included, remove the parameter.
 
 to run a file: 
 
