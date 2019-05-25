@@ -4,10 +4,15 @@ Integration of CMOC (a Tandy Colour Computer C compiler) with Microsft Visual St
 The configuration assumes a project folder structure like this:
 
 /PROJECT NAME
+
 ----/bin
+
 ----/src
+
 ----/include
+
 ----/lib
+
 ----/.vscode
 
 copy the integration files available on this repository to the .vscode folder under the project folder.
