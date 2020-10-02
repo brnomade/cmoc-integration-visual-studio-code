@@ -1,6 +1,19 @@
 # cmoc-integration-visual-studio-code
 Integration of CMOC (a Tandy Colour Computer C compiler) with Microsft Visual Studio Code IDE
 
+# Pre-requisites
+
+First, make sure to install:
+- CMOC (and CygWin)
+- Visual Studio Code
+
+Second, configure Windows PATH variable:
+- Make sure to add the CygWin path to Windows environment variable PATH. In my system, this entry C:\cygwin64\bin was added to the PATH variable.
+
+Once you did that, you can test the setup by going to the command line and running "cmoc --version" from the command line.
+
+# Visual Studio Code setup
+
 The configuration assumes a project folder structure like this:
 
 /PROJECT NAME
