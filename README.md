@@ -4,8 +4,8 @@ Integration of CMOC (a Tandy Colour Computer C compiler) with Microsft Visual St
 # Pre-requisites
 
 First, make sure to install:
-- CMOC (and CygWin)
-- Visual Studio Code
+- CMOC (and CygWin) - http://perso.b2b2c.ca/~sarrazip/dev/cmoc.html
+- Visual Studio Code - from Microsoft
 
 Second, configure Windows PATH variable:
 - Make sure to add the CygWin path to Windows environment variable PATH. In my system, this entry C:\cygwin64\bin was added to the PATH variable.
