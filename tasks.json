@@ -4,24 +4,24 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "type": "shell",
+            "type": "process",
             "label": "CMOC - build active file - target CoCo",
-            "command": "C:\\cygwin64\\usr\\local\\bin\\cmoc.exe",
+            "command": "cmoc.exe",
             "args": [
                 "--verbose",
                 "--coco",
+                "--preproc",
                 "-Werror",
-                "-I",
-                "${workspaceFolder}\\include",
-                "-L",
-                "${workspaceFolder}\\lib",
-                "-o",
-                "${workspaceFolder}\\bin\\${fileBasenameNoExtension}.bin",
+                "--lwasm=/cygdrive/c/cygwin64/usr/local/bin/lwasm",
+                "--lwlink=/cygdrive/c/cygwin64/usr/local/bin/lwlink",
+                "-I${workspaceFolder}\\include",
+                "-L${workspaceFolder}\\lib",
+                "-o${workspaceFolder}\\bin\\${fileBasenameNoExtension}.bin",
                 "${fileBasename}",
                 "-lbcontrol"
             ],
             "options": {
-                "cwd": "${fileDirname}"
+                "cwd": "C:\\cygwin64\\bin"
             },
             "group": {
                 "kind": "build",
